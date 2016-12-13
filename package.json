@@ -2,7 +2,7 @@
   "name": "sails-graphql-interfaces",
   "version": "0.0.2",
   "description": "Common interfaces between sails-graphql-adapter and sails-graphql-client",
-  "main": "index.d.ts",
+  "main": "index.ts",
   "scripts": {
     "test": "tsc && tslint --project=tsconfig.json && jest --verbose --coverage",
     "watch:test": "jest --watch"
