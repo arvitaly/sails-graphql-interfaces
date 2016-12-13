@@ -1,6 +1,6 @@
 {
   "name": "sails-graphql-interfaces",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Common interfaces between sails-graphql-adapter and sails-graphql-client",
   "main": "index.ts",
   "scripts": {
