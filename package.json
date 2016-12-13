@@ -1,0 +1,34 @@
+{
+  "name": "sails-graphql-interfaces",
+  "version": "0.0.2",
+  "description": "Common interfaces between sails-graphql-adapter and sails-graphql-client",
+  "main": "index.d.ts",
+  "scripts": {
+    "test": "tsc && tslint --project=tsconfig.json && jest --verbose --coverage",
+    "watch:test": "jest --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arvitaly/sails-graphql-interfaces.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/arvitaly/sails-graphql-interfaces/issues"
+  },
+  "homepage": "https://github.com/arvitaly/sails-graphql-interfaces#readme",
+  "jest": {
+    "automock": true,
+    "unmockedModulePathPatterns": [
+      "react"
+    ]
+  },
+  "devDependencies": {
+    "@types/jest": "^16.0.1",
+    "coveralls": "^2.11.15",
+    "jest": "^17.0.3",
+    "tslint": "^4.0.2",
+    "typescript": "^2.1.4"
+  }
+}
