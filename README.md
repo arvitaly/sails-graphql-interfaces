@@ -1,5 +1,7 @@
 # sails-graphql-interfaces
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/arvitaly/sails-graphql-interfaces.svg)](https://greenkeeper.io/)
+
 Common interfaces between sails-graphql-adapter and sails-graphql-client
 
 [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url] [![Coverage percentage][coveralls-image]][coveralls-url]
