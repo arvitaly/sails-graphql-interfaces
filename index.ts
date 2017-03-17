@@ -1,4 +1,4 @@
-export type LiveMessageType = "update" | "add";
+export type LiveMessageType = "update" | "add" | "remove";
 export type GlobalID = string;
 export type LiveMessageID = string;
 export interface ILiveMessage {
@@ -7,10 +7,13 @@ export interface ILiveMessage {
     globalId: GlobalID;
     data: any;
 }
+export interface ILiveRemoveMessage extends ILiveMessage {
+    kind: "remove";
+}
 export interface ILiveUpdateMessage extends ILiveMessage {
     kind: "update";
 }
 export interface ILiveAddMessage extends ILiveMessage {
     kind: "add";
 }
-export type LiveMessage = ILiveUpdateMessage | ILiveAddMessage;
+export type LiveMessage = ILiveUpdateMessage | ILiveAddMessage | ILiveRemoveMessage;
